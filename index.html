@@ -5,88 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interview Prep Library</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
-    h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
-    h2 { margin-top: 30px; color: #444; }
-    ul { list-style: none; padding: 0; }
-    li { padding: 5px 0; }
+    body { font-family: monospace; max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.8; }
+    h1 { font-family: system-ui, sans-serif; border-bottom: 2px solid #333; padding-bottom: 10px; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .tree { margin: 0; padding: 0; }
+    .folder { color: #444; font-weight: bold; }
+    .item { padding-left: 24px; }
+    .item::before { content: "├── "; color: #888; }
+    .item:last-child::before { content: "└── "; }
   </style>
 </head>
 <body>
   <h1>📚 <a href="https://github.com/enkr1/interview_preparation_materials">Interview Prep Library</a></h1>
 
-  <h2>System Design & Architecture</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/System%20Design%20Interview%20An%20Insider's%20Guide%20by%20Alex%20Xu%20(z-lib.org).pdf">System Design Interview - Alex Xu</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Grokking-the-system-design-interviewpdf-5-pdf-free%20(1).pdf">Grokking the System Design Interview</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(Martin%20Kleppmann)%20(Z-Library).pdf">Designing Data-Intensive Applications - Kleppmann</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Database%20Internals.pdf">Database Internals</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Domain-Driven%20Design_%20Tackling%20-%20Eric%20Evans_14.pdf">Domain-Driven Design - Eric Evans</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Code%20Simplicity%20-%20Max%20Kanat-Alexander.pdf">Code Simplicity</a></li>
-  </ul>
+<pre class="tree">
+<span class="folder">System Design & Architecture/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/System%20Design%20Interview%20An%20Insider's%20Guide%20by%20Alex%20Xu%20(z-lib.org).pdf">System Design Interview - Alex Xu</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Grokking-the-system-design-interviewpdf-5-pdf-free%20(1).pdf">Grokking the System Design Interview</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Designing%20Data-Intensive%20Applications%20The%20Big%20Ideas%20Behind%20Reliable%2C%20Scalable%2C%20and%20Maintainable%20Systems%20(Martin%20Kleppmann)%20(Z-Library).pdf">Designing Data-Intensive Applications - Kleppmann</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Database%20Internals.pdf">Database Internals</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Domain-Driven%20Design_%20Tackling%20-%20Eric%20Evans_14.pdf">Domain-Driven Design - Eric Evans</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Code%20Simplicity%20-%20Max%20Kanat-Alexander.pdf">Code Simplicity</a></span>
 
-  <h2>Coding Interview</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Cracking_the_Coding_Interview_189_Programming_Questions_and_Solutions.pdf">Cracking the Coding Interview</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Definition%20of%20Minimum%20Edit%20Distance.pdf">Minimum Edit Distance (DP)</a></li>
-  </ul>
+<span class="folder">Coding Interview/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Cracking_the_Coding_Interview_189_Programming_Questions_and_Solutions.pdf">Cracking the Coding Interview</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Definition%20of%20Minimum%20Edit%20Distance.pdf">Minimum Edit Distance (DP)</a></span>
 
-  <h2>AI-Era Development</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Beyond%20Vibe%20Coding%20(Addy%20Osmani)%20(Z-Library).epub">Beyond Vibe Coding - Addy Osmani</a></li>
-  </ul>
+<span class="folder">AI-Era Development/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Beyond%20Vibe%20Coding%20(Addy%20Osmani)%20(Z-Library).epub">Beyond Vibe Coding - Addy Osmani</a></span>
 
-  <h2>Linux & Systems</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/UNIX%20and%20Linux%20System%20Administration%20Handbook%20by%20Evi%20Nemeth%20et%20al.%20(z-lib.org).pdf">UNIX and Linux System Administration Handbook</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Linux%20Pocket%20Guide%20Essential%20Commands%20by%20Daniel%20J.%20Barrett%20(z-lib.org).pdf">Linux Pocket Guide</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/System%20programming/Advanced.Programming.in.the.UNIX.Environment.3rd.Edition.pdf">Advanced Programming in the UNIX Environment</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/System%20programming/systems%20programming%20by%20donovan.pdf">Systems Programming - Donovan</a></li>
-  </ul>
+<span class="folder">Linux & Systems/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/UNIX%20and%20Linux%20System%20Administration%20Handbook%20by%20Evi%20Nemeth%20et%20al.%20(z-lib.org).pdf">UNIX and Linux System Administration Handbook</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Linux%20Pocket%20Guide%20Essential%20Commands%20by%20Daniel%20J.%20Barrett%20(z-lib.org).pdf">Linux Pocket Guide</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/System%20programming/Advanced.Programming.in.the.UNIX.Environment.3rd.Edition.pdf">Advanced Programming in the UNIX Environment</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/System%20programming/systems%20programming%20by%20donovan.pdf">Systems Programming - Donovan</a></span>
 
-  <h2>Discrete Mathematics</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition%20-%20Rosen.pdf">Discrete Mathematics - Rosen (7th Ed)</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/Concrete%20Mathematics%20-%20R.%20Graham%2C%20D.%20Knuth%2C%20O.%20Patashnik%20%20(1990)%20WW.pdf">Concrete Mathematics - Graham, Knuth, Patashnik</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/graph%20theory.pdf">Graph Theory</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/Hurley%20-%20A%20Concise%20Introduction%20To%20Logic%207th%20Ed.pdf">Introduction to Logic - Hurley</a></li>
-  </ul>
+<span class="folder">Discrete Mathematics/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/Discrete%20Mathematics%20and%20Its%20Applications%207th%20Edition%20-%20Rosen.pdf">Discrete Mathematics - Rosen (7th Ed)</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/Concrete%20Mathematics%20-%20R.%20Graham%2C%20D.%20Knuth%2C%20O.%20Patashnik%20%20(1990)%20WW.pdf">Concrete Mathematics - Graham, Knuth, Patashnik</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/graph%20theory.pdf">Graph Theory</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Discrete/Hurley%20-%20A%20Concise%20Introduction%20To%20Logic%207th%20Ed.pdf">Introduction to Logic - Hurley</a></span>
 
-  <h2>Machine Learning</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Machine%20learning%20(dawood%20sir)/PatternRecognitionAndMachineLearning-Bishop.pdf">Pattern Recognition and Machine Learning - Bishop</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Machine%20learning%20(dawood%20sir)/Introduction_to_Machine_Learning_-_2e_-_Ethem_Alpaydin.pdf">Introduction to Machine Learning - Alpaydin</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Machine%20learning%20(dawood%20sir)/ciml-v0_99-all.pdf">A Course in Machine Learning</a></li>
-  </ul>
+<span class="folder">Machine Learning/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Machine%20learning%20(dawood%20sir)/PatternRecognitionAndMachineLearning-Bishop.pdf">Pattern Recognition and Machine Learning - Bishop</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Machine%20learning%20(dawood%20sir)/Introduction_to_Machine_Learning_-_2e_-_Ethem_Alpaydin.pdf">Introduction to Machine Learning - Alpaydin</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Machine%20learning%20(dawood%20sir)/ciml-v0_99-all.pdf">A Course in Machine Learning</a></span>
 
-  <h2>Computer Graphics</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Computer%20Graphics/Computer%20Graphics%20with%20OpenGL%20(4th%20ed.)%20%5BHearn%2C%20Baker%20%26%20Carithers%202013%5D.pdf">Computer Graphics with OpenGL</a></li>
-  </ul>
+<span class="folder">Computer Graphics/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Computer%20Graphics/Computer%20Graphics%20with%20OpenGL%20(4th%20ed.)%20%5BHearn%2C%20Baker%20%26%20Carithers%202013%5D.pdf">Computer Graphics with OpenGL</a></span>
 
-  <h2>Image Processing</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/image%20processing/Digital_Image_Processing_2ndEd.pdf">Digital Image Processing (2nd Ed)</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/image%20processing/anil_k_jain.pdf">Fundamentals of Digital Image Processing - Jain</a></li>
-  </ul>
+<span class="folder">Image Processing/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/image%20processing/Digital_Image_Processing_2ndEd.pdf">Digital Image Processing (2nd Ed)</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/image%20processing/anil_k_jain.pdf">Fundamentals of Digital Image Processing - Jain</a></span>
 
-  <h2>Cryptography & Security</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Cryptography%20and%20network%20security/Stallings_Cryptography_and_Network_Security.pdf">Cryptography and Network Security - Stallings</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Cryptography%20and%20network%20security/Cryptography%20and%20Network%20Security%20Forouzan%20-%20Copy.pdf">Cryptography and Network Security - Forouzan</a></li>
-  </ul>
+<span class="folder">Cryptography & Security/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Cryptography%20and%20network%20security/Stallings_Cryptography_and_Network_Security.pdf">Cryptography and Network Security - Stallings</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Cryptography%20and%20network%20security/Cryptography%20and%20Network%20Security%20Forouzan%20-%20Copy.pdf">Cryptography and Network Security - Forouzan</a></span>
 
-  <h2>Wireless Communications</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Wireless%20and%20Mobile%20communication/book2-rapapport.pdf">Wireless Communications - Rappaport</a></li>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Wireless%20and%20Mobile%20communication/Mobile_Communication.pdf">Mobile Communication</a></li>
-  </ul>
+<span class="folder">Wireless Communications/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Wireless%20and%20Mobile%20communication/book2-rapapport.pdf">Wireless Communications - Rappaport</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Wireless%20and%20Mobile%20communication/Mobile_Communication.pdf">Mobile Communication</a></span>
 
-  <h2>Theory of Computation</h2>
-  <ul>
-    <li><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Theory%20of%20computation%20and%20complexity%20theory/TheoryOfComputation.pdf">Theory of Computation</a></li>
-  </ul>
+<span class="folder">Theory of Computation/</span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/Theory%20of%20computation%20and%20complexity%20theory/TheoryOfComputation.pdf">Theory of Computation</a></span>
+</pre>
 </body>
 </html>
