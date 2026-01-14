@@ -11,6 +11,7 @@ This is a **personal interview preparation and study materials library** - not a
 | Directory | Content |
 |-----------|---------|
 | Root | Core CS books (System Design, DDIA, Cracking the Coding Interview, DDD, etc.) |
+| `interview_preparation_system_design_excalidraw_examples/` | System design diagrams (Netflix, WhatsApp, Ticketmaster, etc.) |
 | `Discrete/` | Discrete mathematics, graph theory, combinatorics, logic |
 | `Computer Graphics/` | OpenGL and computer graphics textbooks |
 | `Cryptography and network security/` | Cryptography fundamentals (Stallings, Forouzan) |
