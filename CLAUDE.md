@@ -38,6 +38,22 @@ make
 ### Shell Scripts
 Located in `UnixShellScripts/` - basic examples (factorial, primality, area calculation).
 
+## Adding New Books
+
+1. **Add file** to correct folder (or root for core books)
+2. **Update `index.html`** - add entry under the right category:
+   ```html
+   <span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/FOLDER/FILENAME.pdf">Display Name</a></span>
+   ```
+   - URL-encode spaces as `%20` and special chars
+3. **Commit & push**
+
+## GitHub Pages
+
+Library page: `https://enkr1.github.io/interview_preparation_materials/`
+
+Settings: repo → Settings → Pages → Source: master branch, root folder
+
 ## Working with This Repo
 
 - Primary use: Reference lookup and study
