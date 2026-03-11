@@ -6,16 +6,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **personal interview preparation and study materials library** - not a software project. It contains technical books, PDFs, and reference materials for computer science topics.
 
+## File Naming Convention
+
+All books follow: `Author - Title (Year).ext`
+- Duplicates marked with `[2]` or `[beta]`
+
 ## Structure
 
 | Directory | Content |
 |-----------|---------|
 | Root | Core CS books (System Design, DDIA, Cracking the Coding Interview, DDD, etc.) |
+| `notes/` | Reference notes and papers (e.g. Minimum Edit Distance) |
 | `interview_preparation_system_design_excalidraw_examples/` | System design diagrams (Netflix, WhatsApp, Ticketmaster, etc.) |
 | `Discrete/` | Discrete mathematics, graph theory, combinatorics, logic |
 | `Computer Graphics/` | OpenGL and computer graphics textbooks |
 | `Cryptography and network security/` | Cryptography fundamentals (Stallings, Forouzan) |
-| `Database Internals.pdf` | Database implementation details |
 | `image processing/` | Digital image processing textbooks |
 | `Machine learning (dawood sir)/` | Pattern recognition, ML fundamentals |
 | `System programming/` | UNIX/Linux system programming (APUE) |
