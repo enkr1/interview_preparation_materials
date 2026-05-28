@@ -40,9 +40,11 @@ books/
 
 ### System design diagrams
 
-15 Excalidraw diagrams covering common system design interview questions (Netflix, WhatsApp, TinyURL, Ticketmaster, etc). Open the `.excalidraw` files at [excalidraw.com](https://excalidraw.com) or in VS Code with the Excalidraw extension.
+17 Excalidraw diagrams covering common system design interview questions (Netflix, WhatsApp, TinyURL, Ticketmaster, Google Maps, etc), rendered as SVG so they preview inline.
 
-Sources and attribution: see [`excalidraw/README.md`](excalidraw/README.md).
+**Browse the gallery: [`excalidraw/README.md`](excalidraw/README.md)** (grouped by topic, sources attributed)
+
+To edit a diagram, open the `.excalidraw` file at [excalidraw.com](https://excalidraw.com) or in VS Code with the Excalidraw extension.
 
 ### Notes
 
