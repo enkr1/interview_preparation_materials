@@ -7,6 +7,7 @@
   <style>
     body { font-family: monospace; max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.8; }
     h1 { font-family: system-ui, sans-serif; border-bottom: 2px solid #333; padding-bottom: 10px; }
+    .tagline { font-family: system-ui, sans-serif; color: #555; font-style: italic; margin: -8px 0 24px; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .tree { margin: 0; padding: 0; }
@@ -14,12 +15,20 @@
     .item { padding-left: 24px; }
     .item::before { content: "├── "; color: #888; }
     .item:last-child::before { content: "└── "; }
+    .star { color: #d63384; }
   </style>
 </head>
 <body>
   <h1><a href="https://github.com/enkr1/interview_preparation_materials">Interview Prep Library</a></h1>
+  <p class="tagline">A prep system for busy engineers who need to remember who they are.</p>
 
 <pre class="tree">
+<span class="folder">templates/ <span class="star">(start here)</span></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/templates/00-intro.md">00-intro.md (Your "tell me about yourself")</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/templates/01-career-narrative.md">01-career-narrative.md (Career arc, themes, differentiators)</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/templates/02-star-stories.md">02-star-stories.md (Story bank for behavioural questions)</a></span>
+<span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/templates/03-pre-interview-drill.md">03-pre-interview-drill.md (30-min pre-interview checklist)</a></span>
+
 <span class="folder">books/system-design/</span>
 <span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/books/system-design/Alex%20Xu%20-%20System%20Design%20Interview%20(2020).pdf">Alex Xu - System Design Interview (2020)</a></span>
 <span class="item"><a href="https://github.com/enkr1/interview_preparation_materials/blob/master/books/system-design/Alex%20Xu%20-%20ByteByteGo%20System%20Design%20(2023).pdf">Alex Xu - ByteByteGo System Design (2023)</a></span>
